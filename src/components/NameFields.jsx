@@ -2,7 +2,7 @@ import React from "react";
 
 const NameFields = () => {
   return (
-    <section className="grid grid-cols-2 gap-5 mt-4">
+    <section className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-4">
       <div className="flex flex-col gap-2">
         <label htmlFor="name">First Name</label>
         <input

@@ -6,7 +6,7 @@ const Message = () => {
       <label htmlFor="message">Message</label>
       <textarea
         required
-        className="mt-2 w-full border border-mediumgray h-36 py-2 px-3 rounded-[6px]"
+        className="mt-2 w-full border border-mediumgray h-28 py-2 px-3 rounded-[6px]"
         name="message"
         id="message"
         placeholder="Your Message"
