@@ -7,7 +7,9 @@ const EmailField = () => {
 
   return (
     <div className="w-full mt-4 flex flex-col gap-2">
-      <label htmlFor="Email">Email Address</label>
+      <label className="star" htmlFor="Email">
+        Email Address
+      </label>
       <input
         required
         type="email"

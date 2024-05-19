@@ -8,7 +8,9 @@ const NameFields = () => {
   return (
     <section className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-4">
       <div className="flex flex-col gap-2">
-        <label htmlFor="name">First Name</label>
+        <label className="star" htmlFor="name">
+          First Name
+        </label>
         <input
           required
           type="text"
@@ -26,7 +28,9 @@ const NameFields = () => {
         />
       </div>
       <div className="flex flex-col gap-2">
-        <label htmlFor="name">Last Name</label>
+        <label className="star" htmlFor="name">
+          Last Name
+        </label>
         <input
           required
           type="text"

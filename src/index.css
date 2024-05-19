@@ -18,4 +18,13 @@
       border: 2.5px solid hsl(169, 82%, 27%);
     }
   }
+
+  .star{
+    &::after{
+      content: "*";
+      color: green;
+      margin-left: 5px;
+    }
+  }
+
 }

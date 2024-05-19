@@ -8,7 +8,7 @@ const QueryType = () => {
 
   return (
     <div className="w-full mt-4">
-      <span>Query Type</span>
+      <span className="star">Query Type</span>
 
       <section className="grid grid-cols-1 mt-2 sm:grid-cols-2 gap-5">
         <label
